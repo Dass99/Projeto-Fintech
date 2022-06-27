@@ -1,0 +1,78 @@
+/*configurações de estilo genéricas*/
+body{
+    background-color:#282828;
+    color: goldenrod;
+}
+
+header > div.logo{
+    margin-top: 20px;
+}
+
+/*configurações da pagina de login*/
+.container-pai{
+    transform: translateY(-10%);
+}
+a.logon{
+    background-color: #282828;
+    border: solid 1px;
+    color: gold;
+
+}
+a.logon:hover{
+    background-color: gold;
+    color: black;
+    border: none;
+}
+.alternative-login, .button{
+    display: grid;
+}
+
+.alternative-login > .btn1{
+    margin-top: 10px;
+}
+
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?86q5lh');
+    src: url('fonts/icomoon.eot?86q5lh#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?86q5lh') format('truetype'),
+        url('fonts/icomoon.woff?86q5lh') format('woff'),
+        url('fonts/icomoon.svg?86q5lh#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Enable Ligatures ================ */
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    font-feature-settings: "liga";
+    -webkit-font-variant-ligatures: discretionary-ligatures;
+    font-variant-ligatures: discretionary-ligatures;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Logo:before {
+    content: "\e909";
+    color: #ffd700;
+    font-size: 35px;
+    margin-left: 15%;
+}

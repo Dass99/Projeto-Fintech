@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: "Raleway", sans-serif;
+    background: url(Assets/kelly-sikkema-G_91H-3qZOA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.banner,
+.navbar {
+    margin-top: 7px;
+}
+
+.nav-item {
+    font-family: 'Barlow', sans-serif;
+    margin-right: 10px;
+    font-size: 1.2em;
+
+
+}
+
+.info {
+    margin-right: 25%;
+    transform: translateY(80%);
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100 bolder;
+    font-size: 1.5em;
+    color: black;
+}
+header >.info > h1{
+    font-weight:bold;
+    color: rgb(253, 212, 7);
+    font-size: xx-large;
+}
+
+.info a {
+    margin-left: 25%;
+}
+
+.btn {
+    border-radius: 15px;
+    background-color: #ffd700;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #0060a1;
+    color: #fff;
+    border: none;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?86q5lh');
+    src: url('fonts/icomoon.eot?86q5lh#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?86q5lh') format('truetype'),
+        url('fonts/icomoon.woff?86q5lh') format('woff'),
+        url('fonts/icomoon.svg?86q5lh#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Enable Ligatures ================ */
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    font-feature-settings: "liga";
+    -webkit-font-variant-ligatures: discretionary-ligatures;
+    font-variant-ligatures: discretionary-ligatures;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Logo:before {
+    content: "\e909";
+    color: #ffd700;
+    font-size: 35px;
+    margin-left: 15%;
+}

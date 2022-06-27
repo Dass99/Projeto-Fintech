@@ -1,0 +1,126 @@
+body{
+    background-color:#282828;
+    
+}
+
+/*Barra do menu*/
+.navbar,
+.container-fluid {
+    background-color: #171717;
+}
+.icon-icons8-menu-1{
+    box-shadow: none;
+    text-shadow: none;
+    border: none;
+}
+.navbar-brand {
+    color:gold;
+    pointer-events: none;
+    
+}
+
+.icon-Logo{
+    padding-right: 600px;
+    font-size: 28px;
+}
+/*conteudo do menu*/
+.modal {
+    width: 300px;
+}
+
+.modal-header {
+    background-color: #cc8105;
+    border: none;
+}
+.modal-content {
+    width: 300px;
+    background-color: #cc8105;
+}
+
+
+.nav-items {
+    margin-bottom: 28px;
+    text-decoration: none;
+    color: #171717;
+}
+
+.nav-items:hover {
+    color: #fce8c9;
+}
+
+.shadow{
+    color: #cc8105;
+}
+
+/* Icones */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?86q5lh');
+    src:  url('fonts/icomoon.eot?86q5lh#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?86q5lh') format('truetype'),
+      url('fonts/icomoon.woff?86q5lh') format('woff'),
+      url('fonts/icomoon.svg?86q5lh#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    
+    /* Enable Ligatures ================ */
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    font-feature-settings: "liga";
+    -webkit-font-variant-ligatures: discretionary-ligatures;
+    font-variant-ligatures: discretionary-ligatures;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-Logo:before {
+    content: "\e909";
+    color: #ffd700;
+    font-size: 35px;
+  }
+  .icon-medal-solid:before {
+    content: "\e906";
+  }
+  .icon-gear-solid:before {
+    content: "\e907";
+  }
+  .icon-bullseye-solid:before {
+    content: "\e908";
+  }
+  .icon-comment-dots-solid:before {
+    content: "\e905";
+  }
+  .icon-hand-holding-dollar-solid:before {
+    content: "\e901";
+  }
+  .icon-money-bill-transfer-solid:before {
+    content: "\e902";
+  }
+  .icon-money-bill-trend-up-solid:before {
+    content: "\e904";
+  }
+  .icon-credit-card-solid:before {
+    content: "\e900";
+  }
+  .icon-icons8-menu-1:before {
+    content: "\e903";
+    color: #fab005;
+  }
+  
